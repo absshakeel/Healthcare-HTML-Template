@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+/*
+======================================
+Template Name: Healthcare Template
+Author: complexacademy
+ 
+======================================
+=========== INDEXING ================= 
+01. Basic Style 
+02. Header Style 
+03. Banner Style 
+04. About Style 
+05. Services Style 
+06. about2 Style 
+07. product Style 
+08. Team Style 
+09. Project Style 
+10. Blog Style 
+11. Footer Style 
+
+======================================
+ */
+
+
+ /*======
+ 01. Basic Style 
+ ======*/
+body{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.btn{
+    padding: 25px 30px;
+    font-size: 21px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 7px;
+
+}
+ /*======
+02. Header Style 
+ ======*/
+
+header{
+    background-color: #d9ab00;
+    padding: 30px 0px;
+}
+.logo img{
+    width: 100%;
+}
+header nav{}
+header nav ul{
+    list-style-type: none;
+    text-align: center;
+
+}
+header nav li{
+    display: inline-block;
+}
+header nav a{
+    display: block;
+    color: #fff;
+    font-size: 29px;
+    font-weight: 500;
+    text-decoration: none;
+    margin:10px 20px;
+}
+.search{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.6);
+}
+.search input{
+    width: 80%;
+    padding: 10px 5px;
+    border: none;
+    background-color: #fbc301;
+    color: #fff;
+
+}
+.search input::placeholder{
+    color: #fff;
+
+}
+.search input:focus{
+    border: none;
+    outline: none;
+}
+.search button{
+    width: 20%;
+    padding: 10px;
+    border: none;
+    position: absolute;
+    background-color: #00bdc9;
+}
+.search i{
+    color: #fff;
+}
+
+ /*======
+03. Banner Style 
+ ======*/
+ #banner{
+    background-color: #fbc301;
+ }
+ #banner .dog {
+    margin-top: 25px;
+ }
+ #banner .dog img{
+    width: 100%;
+    transform: rotateY(187deg);
+ }
+ #banner .textarea {
+    padding: 60px 0px;
+ }
+ #banner .textarea h2{
+    font-size: 67px;
+    font-weight: 600;
+    color: #fff;
+    word-spacing: 15px;
+ }
+ #banner .textarea p{
+    font-size: 29px;
+    color: #fff;
+  }
+#banner .btngroup{
+    margin-top: 50px;
+}
+#banner .btn1{
+    background-color: #00bdc9;
+    margin-right:35px ;
+}
+#banner .btn2{
+    border: 3px solid #fff;
+}
