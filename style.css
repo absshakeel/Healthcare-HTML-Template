@@ -42,6 +42,19 @@ body{
     border-radius: 7px;
 
 }
+.section-head{
+text-align: center;
+margin: 20px 0px 35px 0px;
+}
+.section-head h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+.section-head p{
+    font-size: 18px;
+
+    
+}
  /*======
 02. Header Style 
  ======*/
@@ -185,4 +198,117 @@ header nav a{
 #about .box .icon i{
      color: #d9ab00;
 
+ }
+
+ /*=========
+ 05. Services Style 
+ ==========*/
+ #service{
+    background-color: #fbc301;
+    padding: 80px 0px;
+ }
+ #service .section-head{
+    color: #fff;
+ }
+ #service .contentbox{
+   text-align: center;
+   color: #fff;
+   margin: 10px 20px;
+ }
+ #service .contentbox h4{
+    font-size: 36px;
+ }
+ #about2{
+    padding: 80px 0px;
+ }
+#about2 .leftbox{
+    position: relative;
+}
+#about2 .imgbox{
+    position: relative;
+}
+#about2 .imgbox img{
+    width: 80%;
+}
+#about2 .imgbox::after{
+    position: absolute;
+    content: '';
+    width: 80%;
+    height: 98.7%;
+    background-color: #fbc301;
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+}
+#about2 .box {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: -30px;
+    right: 40px;
+    background-color: #fbc301;
+    z-index: -99;
+}
+ #about2 .leftbox .icon{
+    position: absolute;
+    background-color: #fff;
+    /* width: 100%;
+    height: 100%; */
+    opacity: 0.7;
+    top:50%;
+    left: 50%;
+    transform: translate(-140%,-40%);
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+    font-size: 25px;
+}
+#about2 .leftbox .icon i{
+     color: #d9ab00;
+
+ }
+ #about2 .content{
+    color: #313243;
+    margin-top: 60px;
+    text-align: right;
+ }
+ #about2 .content h2{
+    font-size: 50px;
+    font-weight: 500;
+ }
+ #about2 .content p{
+ }
+ #about2 .content a{
+    background-color: #fbc301;
+    display: inline-block;
+    margin: 40px 0px;
+ }
+
+ /*=========
+ 09. Project Style 
+ ==========*/
+ #project{
+    position: relative;
+    background-image: url('assets/img/projectbg.png');
+  }
+ #project .overlay{
+    padding: 80px 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #fbc301;
+    opacity: 0.6;
+ 
+ }
+ #project .icon-box{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+ }
+ #project .icon-box i{
+    font-size: 60px;
+ }
+ #project .icon-box .count i{
+    font-size: 20px;
  }
